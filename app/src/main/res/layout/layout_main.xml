@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<!--    头像及介绍-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+<!--        头像-->
+    <ImageView
+        android:id="@+id/headpicture"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop">
+    </ImageView>
+<!--        昵称及签名-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="传奇之王"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/red"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/selfSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是兄弟就来砍我！"
+            android:textSize="20sp"
+            android:textColor="@color/blue"
+            >
+        </TextView>
+    </LinearLayout>
+
+    </LinearLayout>
+
+<!--   功能选择-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="200dp"
+        android:background="#00000000">
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打boss"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:background="@drawable/css"
+            android:padding="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="刷经验"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:background="@drawable/css"
+            android:padding="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="抽奖"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:background="@drawable/css"
+            android:padding="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打造神装"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:background="@drawable/css"
+            android:padding="10dp">
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>
